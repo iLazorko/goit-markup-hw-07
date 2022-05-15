@@ -3,9 +3,7 @@
 }
 
 .clients-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(flex, center, center);
   width: 170px;
   height: 92px;
   border: 1px solid var(--icon-color);
@@ -14,7 +12,7 @@
   transition-property: color, border;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
-  
+
   &:hover,
   &:focus {
     color: var(--accent-color);

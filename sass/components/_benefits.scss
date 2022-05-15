@@ -9,9 +9,7 @@
 }
 
 .benefits-list__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(flex, center, center);
   background-color: var(--bgc-secondary);
   height: 120px;
   margin-bottom: 30px;

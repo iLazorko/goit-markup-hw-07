@@ -5,8 +5,7 @@
 }
 
 .contacts {
-  display: flex;
-  align-items: baseline;
+  @include flex(flex, baseline, null);
 }
 
 .main-contacts {

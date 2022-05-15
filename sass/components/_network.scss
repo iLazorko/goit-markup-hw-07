@@ -1,6 +1,5 @@
 .network-list {
-  display: flex;
-  justify-content: center;
+  @include flex (flex, null, center);
   margin-bottom: 30px;
 
   &--footer {
@@ -13,9 +12,7 @@
 }
 
 .network-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex (flex, center, center);
   width: 44px;
   height: 44px;
   border-radius: 50%;
